@@ -15,10 +15,10 @@
   </div>
 </template>
 
-<script setup>
+<script setup lang="ts">
 import sourceData from '@/data'
 import { ref } from 'vue'
 
 const { banks } = sourceData
-const activeBank = ref(banks[0].id)
+const activeBank = ref<string>(banks[0].id)
 </script>
