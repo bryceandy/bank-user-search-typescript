@@ -1,0 +1,212 @@
+{
+  "banks": [
+    {
+      "name": "National Microfinance Bank Plc",
+      "slug": "national-microfinance-bank-plc",
+      "id": "-KpR7vRkiRPpbUd_TVAR",
+      "users": [
+        "38St7Q8Zi2N1SPa5ahzssq9kbyp1",
+        "7uVPJS9GHoftN58Z2MXCYDqmNAh2",
+        "ALXhxjwgY9PinwNGHpfai6OWyDu2",
+        "FsCDAk9w8NeXEceLV87arpsXjnQ2",
+        "HJNTR1nN8tgbB148RJrPYbby8Vl1"
+      ]
+    },
+    {
+      "name": "CRDB Bank Plc",
+      "slug": "crdb-bank-plc",
+      "id": "-KsjPKA6hDuHlQK_lJWO",
+      "users": [
+        "L664y3qZSubDbT1R6npC0EEybJ73",
+        "Miej9zSGMRZKDvMXzfxjVOyv3RF3",
+        "NnooaWj4KHVxbhKwO1pEdfaQDsD2",
+        "VXjpr2WHa8Ux4Bnggym8QFLdv5C3",
+        "f5xvKdIPQdSrUtT6i3UiHYttRXO2"
+      ]
+    },
+    {
+      "name": "FINCA Microfinance Bank",
+      "slug": "finca-microfinance-bank",
+      "id": "-KvclpNRjpI5W-j0JQGU",
+      "users": [
+        "j09GMrHPBPXyVHw3g2wghVwi2OD3",
+        "jUjmgCurRRdzayqbRMO7aTG9X1G2",
+        "jVa6Go6Nl1Urkag1R2p9CHTf4ny1",
+        "rpbB8C6ifrYmNDufMERWfQUoa202",
+        "u4r8XCziZEWEXsj2UIKNHBoDh0n2",
+        "w9WeYrRVDaNNpxOkyVArjCKLSnD2"
+      ]
+    }
+  ],
+  "users": [
+    {
+      "avatar": "https://avatars3.githubusercontent.com/u/2327556?v=4&s=460",
+      "email": "chrisvfritz@gmail.com",
+      "lastVisitAt": 1594772078,
+      "name": "Chris Fritz",
+      "isModerator": true,
+      "registeredAt": 1594632260,
+      "username": "chrisvfritz",
+      "usernameLower": "chrisvfritz",
+      "id": "38St7Q8Zi2N1SPa5ahzssq9kbyp1"
+    },
+    {
+      "avatar": "https://i.imgur.com/CZT3Nq1.png",
+      "bio": "Love to fish. Work to fish",
+      "email": "tunajoe@gmail.com",
+      "lastVisitAt": 1597227517,
+      "name": "Joey Williams",
+      "registeredAt": 1597148598,
+      "username": "tunajoe",
+      "usernameLower": "tunajoe",
+      "id": "7uVPJS9GHoftN58Z2MXCYDqmNAh2"
+    },
+    {
+      "avatar": "https://pbs.twimg.com/profile_images/719242842598699008/Nu43rQz1_400x400.jpg",
+      "bio": "Now this is a story all about how my life got flipped-turned upside down and I'd like to take a minute just sit right there i'll tell you how I became the prince of a town called Bel-Air.",
+      "email": "rolf@rah.no",
+      "lastVisitAt": 1599628794,
+      "name": "Rolf",
+      "isModerator": true,
+      "registeredAt": 1594025541,
+      "twitter": "rahaugrahaugrahaugrahaugrahaugrahaugrahaugrahaugrahaugrahaug",
+      "username": "rah",
+      "usernameLower": "rah",
+      "website": "http://rah.no",
+      "id": "ALXhxjwgY9PinwNGHpfai6OWyDu2"
+    },
+    {
+      "avatar": "http://i.imgur.com/6MuObMP.jpg",
+      "email": "themask@gmail.com",
+      "lastVisitAt": 1594600691,
+      "name": "Stanley Ipkiss",
+      "registeredAt": 1594038023,
+      "username": "TheMask",
+      "usernameLower": "themask",
+      "id": "FsCDAk9w8NeXEceLV87arpsXjnQ2"
+    },
+    {
+      "avatar": "https://i.imgur.com/P0JExWH.png",
+      "email": "april@gmail.com",
+      "lastVisitAt": 1599564674,
+      "name": "April O´Neil",
+      "registeredAt": 1599564674,
+      "username": "april",
+      "usernameLower": "april",
+      "id": "HJNTR1nN8tgbB148RJrPYbby8Vl1"
+    },
+    {
+      "avatar": "http://cleaneatsfastfeets.com/wp-content/uploads/2013/05/Mr-Burns.gif",
+      "bio": "Release the hounds!",
+      "email": "mrburns@gmail.com",
+      "lastVisitAt": 1597198421,
+      "name": "Charles Montgomery Burns",
+      "registeredAt": 1594038437,
+      "username": "MrBurns",
+      "usernameLower": "mrburns",
+      "id": "L664y3qZSubDbT1R6npC0EEybJ73"
+    },
+    {
+      "avatar": "https://i.imgur.com/aaw5m0T.jpg",
+      "email": "deedee@gmail.com",
+      "lastVisitAt": 1599639756,
+      "name": "Princess Dee Dee",
+      "registeredAt": 1599564428,
+      "username": "deedee",
+      "usernameLower": "deedee",
+      "id": "Miej9zSGMRZKDvMXzfxjVOyv3RF3"
+    },
+    {
+      "avatar": "https://firebasestorage.googleapis.com/v0/b/forum-2a982.appspot.com/o/images%2Favatars%2Fraynathan?alt=media&token=bd9a0f0e-60f2-4e60-b092-77d1ded50a7e",
+      "email": "raynathan@gmail.com",
+      "lastVisitAt": 1597312801,
+      "name": "Ray-Nathan James",
+      "registeredAt": 1597196808,
+      "username": "raynathan",
+      "usernameLower": "raynathan",
+      "id": "NnooaWj4KHVxbhKwO1pEdfaQDsD2"
+    },
+    {
+      "avatar": "http://i0.kym-cdn.com/photos/images/facebook/000/010/934/46623-batman_pikachu_super.png",
+      "bio": "I'm Batman!",
+      "email": "man@batmail.com",
+      "lastVisitAt": 1599978791,
+      "name": "Bruce Wayne",
+      "registeredAt": 1594038930,
+      "username": "batman",
+      "usernameLower": "batman",
+      "id": "VXjpr2WHa8Ux4Bnggym8QFLdv5C3"
+    },
+    {
+      "avatar": "http://icons.iconarchive.com/icons/designbolts/free-male-avatars/128/Male-Avatar-icon.png",
+      "email": "tjax@gmail.com",
+      "lastVisitAt": 1597226584,
+      "name": "Theodor Jackson",
+      "registeredAt": 1597203667,
+      "username": "tjax",
+      "usernameLower": "tjax",
+      "id": "f5xvKdIPQdSrUtT6i3UiHYttRXO2"
+    },
+    {
+      "avatar": "http://icons.iconarchive.com/icons/designbolts/free-male-avatars/128/Male-Avatar-icon.png",
+      "email": "llalal!@gmail.com",
+      "lastVisitAt": 1594442890,
+      "name": "alall",
+      "registeredAt": 1594430070,
+      "username": "alallal",
+      "usernameLower": "alallal",
+      "id": "j09GMrHPBPXyVHw3g2wghVwi2OD3"
+    },
+    {
+      "avatar": "https://i.imgur.com/WPSrfGm.jpg",
+      "email": "blossom@gmail.com",
+      "lastVisitAt": 1599636723,
+      "name": "Blossom",
+      "registeredAt": 1599564068,
+      "username": "blossom",
+      "usernameLower": "blossom",
+      "id": "jUjmgCurRRdzayqbRMO7aTG9X1G2"
+    },
+    {
+      "avatar": "http://i.imgur.com/s0AzOkO.png",
+      "email": "robin@batmail.com",
+      "lastVisitAt": 1597226488,
+      "name": "Robin",
+      "registeredAt": 1594042039,
+      "username": "robin",
+      "usernameLower": "robin",
+      "id": "jVa6Go6Nl1Urkag1R2p9CHTf4ny1"
+    },
+    {
+      "avatar": "https://pbs.twimg.com/profile_images/1188775562657091594/5mgkg44t_400x400.jpg",
+      "email": "alexkyriakidis25@gmail.com",
+      "lastVisitAt": 1594631768,
+      "name": "Alex Kyriakidis",
+      "isModerator": true,
+      "registeredAt": 1594027921,
+      "username": "alexkyriakidis1504027921",
+      "usernameLower": "alexkyriakidis1504027921",
+      "id": "rpbB8C6ifrYmNDufMERWfQUoa202"
+    },
+    {
+      "avatar": "https://i.imgur.com/OqlZN48.jpg",
+      "email": "joker@batmail.com",
+      "lastVisitAt": 1597226599,
+      "name": "Joseph Kerr",
+      "registeredAt": 1594041159,
+      "username": "Joker",
+      "usernameLower": "joker",
+      "id": "u4r8XCziZEWEXsj2UIKNHBoDh0n2"
+    },
+    {
+      "avatar": "http://icons.iconarchive.com/icons/designbolts/free-male-avatars/128/Male-Avatar-icon.png",
+      "email": "abusive.ant@gmail.com",
+      "lastVisitAt": 1594037991,
+      "name": "Abusive Ant",
+      "registeredAt": 1594033936,
+      "username": "AbusiveAnt",
+      "usernameLower": "abusiveant",
+      "id": "w9WeYrRVDaNNpxOkyVArjCKLSnD2"
+    }
+  ]
+}
