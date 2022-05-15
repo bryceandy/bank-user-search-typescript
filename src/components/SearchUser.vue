@@ -9,7 +9,7 @@
     />
     <div
       id="users-list"
-      class="py-2 flex flex-col absolute top-[103%] left-0 h-auto w-full z-10 rounded-lg bg-green-50"
+      class="py-2 flex flex-col absolute top-[110%] left-0 h-auto w-full z-10 rounded-lg bg-green-50"
       v-show="displayUsersList()"
     >
       <a
