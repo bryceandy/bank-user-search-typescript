@@ -1,4 +1,4 @@
-# bankusers
+# bankusersearch with TypeScript
 
 A sample application that demonstrates the usage of Vue composition API (TypeScript version)
 
