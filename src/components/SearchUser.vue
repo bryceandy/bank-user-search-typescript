@@ -10,7 +10,9 @@
 </template>
 
 <script setup lang="ts">
-import { defineProps } from 'vue'
+import { defineProps, toRef } from 'vue'
+import useListUsers from '@/composables/useListUsers'
 
 const props = defineProps<{ bankId: string }>()
+const { users, getBankUsers } = useListUsers(toRef(props, 'bankId'))
 </script>
