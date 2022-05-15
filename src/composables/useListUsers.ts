@@ -23,7 +23,7 @@ export default function useListUsers (bankId: ToRef<string>) {
     website?: string
   }
 
-  let users: User[] = reactive([])
+  const users: User[] = reactive([])
   const getBankUsers = () => {
     const bank = sourceData.banks.find((bank: Bank) => bank.id === bankId.value)
     bank?.users.forEach((userId: string) => {
@@ -34,7 +34,7 @@ export default function useListUsers (bankId: ToRef<string>) {
 
   onMounted(getBankUsers)
   watch(bankId, () => {
-    users = []
+    users.splice(0, users.length)
     getBankUsers()
   })
 
