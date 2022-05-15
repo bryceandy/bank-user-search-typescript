@@ -5,13 +5,19 @@
       class="rounded-full pl-8 pr-6 py-3 border focus:outline-none focus:ring-2 focus:ring-offset-2
       focus:ring-emerald-200 w-full"
       placeholder="Search bank users..."
+      v-model="searchQuery"
     />
     <div
       id="users-list"
       class="py-2 flex flex-col absolute top-[103%] left-0 h-auto w-full z-10 rounded-lg bg-green-50"
-      v-show="users.length"
+      v-show="displayUsersList()"
     >
-      <a href="#" class="block hover:bg-emerald-100 py-2 px-4 text-left" v-for="{ id, name } in users" :key="id">
+      <a
+        href="#"
+        class="block hover:bg-emerald-100 py-2 px-4 text-left"
+        v-for="{ id, name } in usersToDisplay()"
+        :key="id"
+      >
         {{ name }}
       </a>
     </div>
@@ -21,7 +27,12 @@
 <script setup lang="ts">
 import { defineProps, toRef } from 'vue'
 import useListUsers from '@/composables/useListUsers'
+import useSearchUsers from '@/composables/useSearchUsers'
 
 const props = defineProps<{ bankId: string }>()
 const { users } = useListUsers(toRef(props, 'bankId'))
+const { searchQuery, usersMatchingSearchQuery } = useSearchUsers(users)
+
+const displayUsersList = (): boolean => users.length > 0 || usersMatchingSearchQuery.value.length > 0
+const usersToDisplay = () => usersMatchingSearchQuery.value.length ? usersMatchingSearchQuery.value : users
 </script>
