@@ -34,5 +34,6 @@ const { users } = useListUsers(toRef(props, 'bankId'))
 const { searchQuery, usersMatchingSearchQuery } = useSearchUsers(users)
 
 const displayUsersList = (): boolean => users.length > 0 || usersMatchingSearchQuery.value.length > 0
-const usersToDisplay = () => usersMatchingSearchQuery.value.length ? usersMatchingSearchQuery.value : users
+// eslint-disable-next-line no-undef
+const usersToDisplay = (): User[] | [] => usersMatchingSearchQuery.value.length ? usersMatchingSearchQuery.value : users
 </script>
