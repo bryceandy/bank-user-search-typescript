@@ -7,11 +7,13 @@
       placeholder="Search bank users..."
     />
     <div
-      id="search-results"
-      class="py-4 flex flex-col gap-y-3 absolute top-[103%] left-0 h-auto w-full z-10 rounded-lg bg-green-50"
+      id="users-list"
+      class="py-2 flex flex-col absolute top-[103%] left-0 h-auto w-full z-10 rounded-lg bg-green-50"
       v-show="users.length"
     >
-      <span v-for="{ id, name } in users" :key="id">{{ name }}</span>
+      <a href="#" class="block hover:bg-emerald-100 py-2 px-4 text-left" v-for="{ id, name } in users" :key="id">
+        {{ name }}
+      </a>
     </div>
   </div>
 </template>
