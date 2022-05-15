@@ -17,7 +17,7 @@
 </template>
 
 <script setup lang="ts">
-import sourceData from '@/data'
+import sourceData from '@/data.json'
 import SearchUser from '@/components/SearchUser'
 import { ref } from 'vue'
 
