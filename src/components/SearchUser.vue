@@ -6,6 +6,13 @@
       focus:ring-emerald-200 w-full"
       placeholder="Search bank users..."
     />
+    <div
+      id="search-results"
+      class="py-4 flex flex-col gap-y-3 absolute top-[103%] left-0 h-auto w-full z-10 rounded-lg bg-green-50"
+      v-show="users.length"
+    >
+      <span v-for="{ id, name } in users" :key="id">{{ name }}</span>
+    </div>
   </div>
 </template>
 
@@ -14,5 +21,5 @@ import { defineProps, toRef } from 'vue'
 import useListUsers from '@/composables/useListUsers'
 
 const props = defineProps<{ bankId: string }>()
-const { users, getBankUsers } = useListUsers(toRef(props, 'bankId'))
+const { users } = useListUsers(toRef(props, 'bankId'))
 </script>
